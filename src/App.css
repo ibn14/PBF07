@@ -1,0 +1,68 @@
+/* Mengatur tampilan utama aplikasi */
+.App {
+
+    /* Membuat seluruh isi berada di tengah */
+    text-align: center;
+
+    /* Memberikan jarak dari bagian atas */
+    margin-top: 40px;
+
+    /* Memberikan jarak di sisi kiri dan kanan */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Membatasi lebar maksimum aplikasi */
+    max-width: 600px;
+}
+
+/* Mengatur tampilan form */
+form {
+
+    /* Menggunakan Flexbox */
+    display: flex;
+
+    /* Menempatkan isi di tengah */
+    justify-content: center;
+
+    /* Memberikan jarak bawah */
+    margin-bottom: 20px;
+}
+
+/* Mengatur daftar todo */
+ul {
+
+    /* Menghilangkan bullet bawaan */
+    list-style: none;
+
+    /* Menghilangkan padding bawaan */
+    padding: 0;
+}
+
+/* Mengatur setiap item todo */
+li {
+
+    /* Menampilkan isi secara horizontal */
+    display: flex;
+
+    /* Memberi jarak antar elemen */
+    justify-content: space-between;
+
+    /* Membuat isi rata tengah secara vertikal */
+    align-items: center;
+
+    /* Memberikan padding */
+    padding: 10px;
+
+    /* Memberikan garis bawah */
+    border-bottom: 1px solid #ddd;
+}
+
+/* Mengatur tombol */
+button {
+
+    /* Memberikan jarak kiri */
+    margin-left: 10px;
+
+    /* Mengubah kursor menjadi tangan */
+    cursor: pointer;
+}
